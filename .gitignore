@@ -74,3 +74,14 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+
+settings.json
+production.json
+prod.json
+staging.json
+development.json
+dev.json
+**/.idea
+.DS_Store
+deployment.json

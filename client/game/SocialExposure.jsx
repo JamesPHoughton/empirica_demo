@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default class SocialExposure extends React.Component {
   renderSocialInteraction(otherPlayer) {
     const value = otherPlayer.round.get("direction");
@@ -16,13 +15,10 @@ export default class SocialExposure extends React.Component {
 
   render() {
     const { game, player } = this.props;
-
     const otherPlayers = _.reject(game.players, p => p._id === player._id);
-
     if (otherPlayers.length === 0) {
       return null;
     }
-
     return (
       <div className="social-exposure">
         <p>
