@@ -1,6 +1,18 @@
-# Empirica Demo 01
+# Empirica Demo
 
 _This project was generated with [create-empirica-app](https://github.com/empiricaly/create-empirica-app)._
+
+This project modifies the standard Empirica template to add:
+-  a new stimulus (the [Random Dot Kinematogram](https://github.com/empiricaly/random-dot-kinematogram))
+- a new response (a pair of buttons which highlight to indicate selection state)
+- a new game factor (number of rounds)
+
+To install the stimulus, run:
+```bash
+meteor npm install --save @empirica/random-dot-kinematogram
+```
+
+
 
 ## Getting started
 
